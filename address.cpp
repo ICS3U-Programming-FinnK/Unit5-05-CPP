@@ -6,9 +6,9 @@
 #include <iostream>
 #include <string>
 
-void format_address(const std::string& apartmentNumber = "", const std::string& streetNumber,
-                    const std::string& streetName, const std::string& city,
-                    const std::string& province, const std::string& postalCode) {
+void format_address(const std::string& apartmentNumber = "", const std::string& streetNumber = "",
+                    const std::string& streetName = "", const std::string& city = "",
+                    const std::string& province = "", const std::string& postalCode = "") {
     // Format the address string
     std::string address = "ADDRESS PROGRAM\n";
     address += "APARTMENT NUMBER: " + apartmentNumber + "\n";
