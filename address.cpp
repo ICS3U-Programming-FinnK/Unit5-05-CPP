@@ -24,8 +24,8 @@ void format_address(const std::string& apartmentNumber = "", const std::string& 
 
 int main() {
     // Get user input for the address components
-    std::string apartmentNumber;
     std::string streetNumber;
+    std::string apartmentNumber;
     std::string streetName;
     std::string city;
     std::string province;
