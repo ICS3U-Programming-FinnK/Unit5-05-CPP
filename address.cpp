@@ -31,11 +31,11 @@ int main() {
     std::string province;
     std::string postalCode;
 
-    std::cout << "Enter the apartment number (optional): ";
-    std::getline(std::cin, apartmentNumber);
-
     std::cout << "Enter the street number: ";
     std::getline(std::cin, streetNumber);
+
+    std::cout << "Enter the apartment number (optional): ";
+    std::getline(std::cin, apartmentNumber);
 
     std::cout << "Enter the street name: ";
     std::getline(std::cin, streetName);
